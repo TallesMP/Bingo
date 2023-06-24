@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#AreaCartelas {
+    height: 100vh;
+    width: 61.8vw;
+
+
+}
+
+#AreaTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 189, 35);
+    width: 100%;
+    height: 6%;
+    /*mudar a unidade de medida depois*/
+    border-bottom: 3px;
+    border-style: groove;
+    border-color: black;
+
+}
+
+#Nome {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 7%;
+    /*mudar a unidade de medida depois*/
+}
+
+input {
+    width: 25%;
+    height: 50%;
+    border-color: black;
+    border-style: groove;
+    border: 10px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+}
+
+input:hover,
+input:focus {
+    width: 28%;
+    height: 60%;
+}
+
+#Tabelas {
+    display: flex;
+    height: 80%;
+    width: 100%;
+
+
+}
+
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    text-align: center;
+    width: 5%;
+    height: 5%;
+
+}
+
+table {
+    width: 20%;
+    height: 30%;
+    margin: 0;
+}
+
+
+
+#AreaJogo {
+    height: 100vh;
+    width: 38.2vw;
+    border-left: 2px;
+    border-style: groove;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 13%;
+    height: 4%;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+}
